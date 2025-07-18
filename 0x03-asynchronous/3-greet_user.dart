@@ -19,6 +19,7 @@ Future<String> loginUser() async {
       print("There is a user: $isLogin");
       return (await greetUser());
     } else {
+      print("There is a user: $isLogin");
       return "Wrong credentials";
     }
   } catch (err) {
