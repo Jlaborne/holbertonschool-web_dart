@@ -14,9 +14,9 @@ printRmCharacters() async {
         print(character["name"]);
       }
     } else {
-      print("Error: ${response.statusCode}");
+      print('error caught: ${response.statusCode}');
     }
   } catch (e) {
-    print("Exception caught: $e");
+    print('error caught: $e');
   }
 }
